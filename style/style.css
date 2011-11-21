@@ -1,0 +1,76 @@
+@font-face { 
+	font-family: Delicious; src: url('GeosansLight.ttf'); 
+}
+ 
+body { 
+	font-family: Delicious, sans-serif;
+	color:#EEEEEE;
+	text-align: center;
+	font-size:16;
+	background: -webkit-radial-gradient(black 15%, transparent 16%) 0 0, -webkit-radial-gradient(black 15%, transparent 16%) 8px 8px, -webkit-radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 0 1px, -webkit-radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 8px 9px;
+	background-image: -webkit-radial-gradient(center, black 15%, transparent 16%), -webkit-radial-gradient(center, black 15%, transparent 16%), -webkit-radial-gradient(center, rgba(255, 255, 255, 0.0976563) 15%, transparent 20%), -webkit-radial-gradient(center, rgba(255, 255, 255, 0.0976563) 15%, transparent 20%);
+	background-image: -moz-radial-gradient(black 15%, transparent 16%), -moz-radial-gradient(black 15%, transparent 16%), -moz-radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%), -moz-radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%);
+	background-position: 0 0pt, 8px 8px, 0 1px, 8px 9px;
+	background-repeat-x: initial, initial, initial, initial;
+	background-repeat-y: initial, initial, initial, initial;
+	background-attachment: initial, initial, initial, initial;
+	background-position-x: 0px, 8px, 0px, 8px;
+	background-position-y: 0px, 8px, 1px, 9px;
+	background-origin: initial, initial, initial, initial;
+	background-clip: initial, initial, initial, initial;
+	background-color: #282828;
+	background-size: 16px 16px;
+}
+			
+button.buttonClass{
+	width: 200px;
+	color: #eeeeee;
+	padding: 8px 20px;
+	background: -moz-linear-gradient(
+				top,    
+				#999999 0%,
+				#bbbbbb);
+	background: -webkit-gradient(
+				linear, left top, left bottom, 
+				from(#999999),
+				to(#bbbbbb));
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border: 0px solid #000000;
+	-moz-box-shadow:
+		0px 1px 3px rgba(255,255,255,0.5),
+		inset 0px 0px 0px rgba(161,142,016,0.6);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(255,255,255,0.5),
+		inset 0px 0px 0px rgba(161,142,016,0.6);
+	text-shadow:
+		0px -1px 3px rgba(170,170,170,0.8),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
+			
+input.tagInput{
+	border-radius: 10px;
+	background: -webkit-gradient(
+					linear, left top, left bottom, 
+					from(#999999),
+					to(#bbbbbb));
+	background: -moz-linear-gradient(
+					top,    
+					#999999 0%,
+					#bbbbbb);
+	padding:5px;
+	color:#EEEEEE;
+}
+
+.positionImg{
+	position: absolute;
+}
+
+#content{
+	position:absolute;
+	top:120px;
+	left:5px;
+	right:5px;
+	bottom:0px;
+}
